@@ -8,6 +8,8 @@ For the approved MVP backlog, use `.scratch/issues/<NN>-<slug>.md`, one file per
 
 Use canonical triage statuses. Record dependencies separately; `needs-triage` is not a completion state. Before implementing critical contracts, perform Design It Twice as required by the ticket.
 
+Track implementation progress in a separate `Execution:` field (`not-started`, `in-progress`, `completed`). Keep `Status:` for canonical triage roles. A dependency is satisfied only when its `Execution: completed` and acceptance evidence are recorded; triage status alone never indicates completion.
+
 ## Conventions
 
 - One feature per directory: `.scratch/<feature-slug>/`
